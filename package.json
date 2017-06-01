@@ -1,0 +1,32 @@
+{
+  "name": "@deskproapps/app-auto-self-assign",
+  "version": "0.1.0",
+  "description": "Assign a ticket automatically to the agent when viewing it, if the ticket is unassigned.",
+  "main": "lib/main/javascript/index.js",
+  "scripts": {
+    "release": "npm_bump",
+    "dev": "dpat server .",
+    "package": "dpat package .",
+    "test": "dpat test ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeskproApps/app-auto-self-assign.git"
+  },
+
+  "keywords": [
+    "deskpro"
+  ],
+  "author": "Deskpro",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/DeskproApps/app-auto-self-assign/issues"
+  },
+  "homepage": "https://github.com/DeskproApps/app-auto-self-assign#readme",
+  "devDependencies": {
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.3",
+    "error-wrapper": "2.1.0",
+    "react": "15.5.3",
+    "react-dom": "15.5.3"
+  }
+}
