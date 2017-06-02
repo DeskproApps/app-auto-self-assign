@@ -11,7 +11,8 @@ export default class App extends React.Component
     Promise
       .all([ dpapp.context.getMe(), dpapp.context.getTabData()])
       .then(([me, tabData]) => {
-        if (!tabData.agent || !tabData.agent.id) {
+        const { api_data } = tabData;
+        if (!api_data.agent || !api_data.agent.id) {
           return dpapp.restApi.put(`tickets/${dpapp.context.entityId}`, { agent: me.id });
         }
       })
