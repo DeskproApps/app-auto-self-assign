@@ -13,7 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/DeskproApps/app-auto-self-assign.git"
   },
-
   "keywords": [
     "deskpro"
   ],
@@ -24,7 +23,7 @@
   },
   "homepage": "https://github.com/DeskproApps/app-auto-self-assign#readme",
   "devDependencies": {
-    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.3",
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.4",
     "error-wrapper": "2.1.0",
     "react": "15.5.3",
     "react-dom": "15.5.3"
