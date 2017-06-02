@@ -20,7 +20,7 @@ function createTransformHtml(destination) {
     },
     {
       pattern: '(https?:)?//unpkg.com/@deskproapps/deskproapps-sdk-core/dist/deskproapps-sdk-core.min.js'.replace('.', '\.'),
-      replacement: destination == 'dist' ? '//unpkg.com/@deskproapps/deskproapps-sdk-core@1.0.0-alpha.3/dist/deskproapps-sdk-core.js' : '../assets/deskproapps-sdk-core.js'
+      replacement: destination == 'dist' ? '//unpkg.com/@deskproapps/deskproapps-sdk-core@1.0.0-alpha.4/dist/deskproapps-sdk-core.js' : '../assets/deskproapps-sdk-core.js'
     }
   ];
 
