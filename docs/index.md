@@ -7,11 +7,11 @@ Assign a ticket automatically to the agent who opens it
 This application uses a simple rule based system to determine if a ticket should be assigned. The rules are written
 in disjunctive normal form  ( an OR of ANDs, see https://en.wikipedia.org/wiki/Disjunctive_normal_form for more information)
 
-By default, it comes with only one rule enabled which assigns the ticket to the agent who is viewing it **only** if th ticket is unassigned
+By default, it comes with only one rule enabled which assigns the ticket to the agent who is viewing it **only** if the ticket is unassigned
 
 ## Changing the ticket assignment rules
 
-The easiest way to change the rules is by editing the default ruleset from the rulesets file `src/main/javascript/Rulesets`
+The easiest way to change the rules is by editing the default ruleset from the rulesets file: [src/main/javascript/Rulesets](https://github.com/DeskproApps/app-auto-self-assign/blob/master/src/main/javascript/Rulesets.js)
 
 The initial file looks like this:
 
@@ -27,8 +27,8 @@ The initial file looks like this:
       ]
     };
     
-If you want to narrow down the assign ticket ruleset, just add a new rule to the first group of rules. For instance if we want to 
-auto-assign a ticket when it is unassigned **AND** its department is on a auto-assign list of departments the file would look like this:
+If you want to narrow down the assign ticket ruleset, just add a new rule to the first group of rules. 
+For instance if we want to auto-assign a ticket when it is unassigned **AND** its department is on a auto-assign list of departments the file would look like this:
    
 
     "use strict";
