@@ -1,5 +1,6 @@
 {
   "version": "2.0.0",
+  "appVersion": "0.2.0",
   "name": "app-auto-self-assign",
   "title": "Auto Self Assign",
   "description": "Assign a ticket automatically to the agent when viewing it, if the ticket is unassigned.",

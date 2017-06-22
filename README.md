@@ -2,15 +2,6 @@
 
 Assign a ticket automatically to the agent when viewing it, if the ticket is unassigned.
 
-## Prerequisites
-
-Make sure you have an up to date version of node, preferably version 6.x.x
-
-Make sure you have the latest Deskpro Apps Tool, installed globally
-
-    npm install -g  @deskproapps/dpat
-
-
 ## Getting started
 
     
@@ -18,17 +9,13 @@ Make sure you have the latest Deskpro Apps Tool, installed globally
     
 In your project folder run    
     
-    npm install && dpat server .
-
-You can also give **dpat** the full path to your project folder 
-
+    npm run dev
+ 
 Go to your deskpro installation, login to the agent interface, and navigate to the link below: 
     
     https://your-local-deskpro.com/agent/?appstore.environment=development
 
 Notice the **appstore.environment=development** query parameter that tells Deskpro to load your application from the development server
-
-Click on a ticket and you should see the right hand side panel opening, showing your development application
 
 ### Changing the default application
  
@@ -38,6 +25,15 @@ To start making changes, open the following file in  your favourite editor.
     
 While the development server is on,  any change will cause the application to be reloaded in the Deskpro window, giving 
 you a nice live preview.
+
+### Packaging the application for distribution
+
+In your project folder run:    
+    
+    npm run package
+
+This will create a `dist` folder inside your project folder which contains all the unpacked and compiled assets
+and a zip file named `app.zip`. This `app.zip` file is the one required to install your application via the DeskPro admin interface. 
 
 ## Documentation
 
