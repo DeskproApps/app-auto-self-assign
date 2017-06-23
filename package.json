@@ -22,9 +22,11 @@
     "url": "https://github.com/DeskproApps/app-auto-self-assign/issues"
   },
   "homepage": "https://github.com/DeskproApps/app-auto-self-assign#readme",
+  "dependencies": {
+    "@deskproapps/deskproapps-sdk-core": "^1.0.0-alpha.9"
+  },
   "devDependencies": {
     "@deskproapps/dpat": "0.3.4",
-    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.7",
     "error-wrapper": "2.1.0",
     "react": "15.5.3",
     "react-dom": "15.5.3"
