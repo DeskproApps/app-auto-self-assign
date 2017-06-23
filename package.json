@@ -1,13 +1,13 @@
 {
   "name": "@deskproapps/app-auto-self-assign",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "Assign a ticket automatically to the agent when viewing it, if the ticket is unassigned.",
   "main": "lib/main/javascript/index.js",
   "scripts": {
     "release": "npm_bump",
     "dev": "dpat server .",
-    "package": "dpat package .",
-    "test": "dpat test ."
+    "package": "dpat clean . && dpat compile . && dpat package .",
+    "test": "echo \"Error: no test specified\" && exit 1."
   },
   "repository": {
     "type": "git",
