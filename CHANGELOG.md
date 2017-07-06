@@ -1,3 +1,0 @@
-## Upcoming
-
-* Initial release
