@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeskproApps/app-auto-self-assign.git"
+    "url": "git+https://github.com/DeskproApps/labs-auto-self-assign.git"
   },
   "keywords": [
     "deskpro"
@@ -19,9 +19,9 @@
   "author": "Deskpro",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/DeskproApps/app-auto-self-assign/issues"
+    "url": "https://github.com/DeskproApps/labs-auto-self-assign/issues"
   },
-  "homepage": "https://github.com/DeskproApps/app-auto-self-assign#readme",
+  "homepage": "https://github.com/DeskproApps/labs-auto-self-assign#readme",
   "dependencies": {
     "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.10"
   },
