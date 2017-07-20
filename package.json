@@ -1,6 +1,6 @@
 {
   "name": "@deskproapps/app-auto-self-assign",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Assign a ticket automatically to the agent when viewing it, if the ticket is unassigned.",
   "main": "lib/main/javascript/index.js",
   "scripts": {
@@ -16,17 +16,35 @@
   "keywords": [
     "deskpro"
   ],
-  "author": "Deskpro",
+  "author": {
+    "name": "DeskPRO Ltd.",
+    "email": "apps@deskpro.com",
+    "url": "https://deskpro.com"
+  },
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/DeskproApps/labs-auto-self-assign/issues"
   },
   "homepage": "https://github.com/DeskproApps/labs-auto-self-assign#readme",
   "dependencies": {
-    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.10"
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.1"
+  },
+  "deskpro" : {
+    "version": "2.1.0",
+    "title": "Auto Self Assign",
+    "isSingle": true,
+    "scope": "agent",
+    "targets": [
+      { "target": "background", "url": "html/index.html" }
+    ],
+    "settings": [],
+    "deskproApiTags": ["tickets.*"],
+    "externalApis": [
+      "/^https?://([^.]+\\.)*mailchimp.com/?.*$/"
+    ]
   },
   "devDependencies": {
-    "@deskproapps/dpat": "0.4.4",
+    "@deskproapps/dpat": "0.4.9",
     "error-wrapper": "2.1.0",
     "react": "15.5.3",
     "react-dom": "15.5.3"
