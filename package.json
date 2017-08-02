@@ -27,18 +27,23 @@
   },
   "homepage": "https://github.com/DeskproApps/labs-auto-self-assign#readme",
   "dependencies": {
-    "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.2"
+    "@deskproapps/deskproapps-sdk-core": "^1.0.0-beta.9"
   },
-  "deskpro" : {
+  "deskpro": {
     "version": "2.1.0",
     "title": "Auto Self Assign",
     "isSingle": true,
     "scope": "agent",
     "targets": [
-      { "target": "background", "url": "html/index.html" }
+      {
+        "target": "background",
+        "url": "html/index.html"
+      }
     ],
     "settings": [],
-    "deskproApiTags": ["tickets.*"],
+    "deskproApiTags": [
+      "tickets.*"
+    ],
     "externalApis": []
   },
   "devDependencies": {
