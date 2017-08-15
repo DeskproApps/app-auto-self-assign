@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/DeskproApps/labs-auto-self-assign#readme",
   "dependencies": {
-    "@deskproapps/deskproapps-sdk-core": "^1.0.0-beta.9"
+    "@deskproapps/deskproapps-sdk-core": "^1.0.0-beta.14"
   },
   "deskpro": {
     "version": "2.1.0",
