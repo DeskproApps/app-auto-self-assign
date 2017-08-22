@@ -1,6 +1,6 @@
 {
   "name": "@deskproapps/labs-auto-self-assign",
-  "version": "0.2.4-beta.3",
+  "version": "0.2.4",
   "dependencies": {
     "@deskproapps/deskproapps-sdk-core": {
       "version": "1.0.0-beta.9",

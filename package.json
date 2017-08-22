@@ -1,6 +1,6 @@
 {
   "name": "@deskproapps/labs-auto-self-assign",
-  "version": "0.2.4-beta.3",
+  "version": "0.2.4",
   "description": "Assign a ticket automatically to the agent when viewing it, if the ticket is unassigned.",
   "main": "lib/main/javascript/index.js",
   "scripts": {
