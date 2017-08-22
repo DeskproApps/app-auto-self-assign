@@ -1,4 +1,4 @@
-# app-auto-self-assign
+# labs-auto-self-assign
 
 Assign a ticket automatically to the agent when viewing it, if the ticket is unassigned.
 
@@ -37,4 +37,4 @@ and a zip file named `app.zip`. This `app.zip` file is the one required to insta
 
 ## Documentation
 
- View online docs at: https://deskproapps.github.io/app-auto-self-assign
+ View online docs at: https://deskproapps.github.io/labs-auto-self-assign

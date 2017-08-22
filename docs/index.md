@@ -11,7 +11,7 @@ By default, it comes with only one rule enabled which assigns the ticket to the 
 
 ## Changing the ticket assignment rules
 
-The easiest way to change the rules is by editing the default ruleset from the rulesets file: [src/main/javascript/Rulesets](https://github.com/DeskproApps/app-auto-self-assign/blob/master/src/main/javascript/Rulesets.js)
+The easiest way to change the rules is by editing the default ruleset from the rulesets file: [src/main/javascript/Rulesets](https://github.com/DeskproApps/labs-auto-self-assign/blob/master/src/main/javascript/Rulesets.js)
 
 The initial file looks like this:
 
